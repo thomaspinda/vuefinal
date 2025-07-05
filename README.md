@@ -1,1 +1,4 @@
 Para iniciar este proyecto es necesario tener instalado node.js, axios y Vue Router, para ello primero debes instalar node.js desde el instalador otorgado por la página original https://nodejs.org/es , una vez instalado, en la consola de comandos ingresas npm install axios y npm install vue-router@4 , una vez termine la instalación de todo, ingresas a la carpeta del proyecto con cd .\proyecto-front\ e ingresas el comando npm run dev , abres el localhost que te indica la consola y listo, el proyecto está abierto
+
+El proyecto consta de un generador de imagenes de gatos, con el que podras divisar una enorme cantidad de imagenes divertidas de gatos otorgada por la API de https://thecatapi.com/#pricing, en la página podras elegir
+la raza de gato que quieres que se genere, también podras ver el historial y ver todas las imagenes que generaste.
