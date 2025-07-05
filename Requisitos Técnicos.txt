@@ -1,0 +1,14 @@
+Listado de requisitos cumplidos en el proyecto:
+
+1.- Uso de al menos 3 componentes Vue ✅ (CatImage.vue, ImageHistory.vue, HomeView.vue y App.vue)
+2.- Uso de Vue Router con mínimo 2 rutas ✅ (/Home , /History)
+3.- Consumo de una API pública con fetch o axios ✅ (https://thecatapi.com/#pricing)
+4.- Manejo de estado reactivo (ref, reactive, data) ✅ (*HomeView.vue)
+5.- Comunicación entre componentes (props, emit) ✅ (*CatImage.vue)
+6.- Renderizado condicional (v-if, v-show) ✅ (*HomeView.vue)
+7.- Renderizado de listas (v-for) ✅ (*HomeView.vue)
+8.- Formularios e inputs con v-model ✅ (*HomeView.vue)
+9.- Aplicación de estilos CSS o framework (Tailwind, Bootstrap, etc) ✅ (Se utilizo CSS con *styles.css)
+
+Como usar:
+Al iniciar el proyecto, aparecerá una página en blanco con un botón de 'inicio' para iniciar la aplicación, esta mostrará un mensaje de bienvenida seguido de un input donde se podrá seleccionar la raza del gato que quieres que aparezca, luego aparecerán los botones de 'Generar gatos' y de 'Ver historial' al presionar el primero, se mostrará una imagen de un gato aleatorio de la raza antes seleccionada, si no se selecciona una raza, se mostrará un gato aleatorio de cualquier raza, hay razas que puede que no tengan imagen de gato, por lo que se mostrará un mensaje de error en el caso de suceder. Todas las imágenes y razas se extraen directamente de la API, por lo que están sujetas a actualizaciones futuras, todas las imágenes que se generen, quedaran guardadas en el historial y se podrán volver a visualizar al momento de presionar el botón de 'Ver historial', para volver del historial a la página de inicio se debe de presionar el botón de inicio del header, habrá un botón para marcar un gato como favorito, el registro de favoritos se implementa correctamente, pero no su visualización, su única función es cumplir con el requisito de comunicación entre componentes.
